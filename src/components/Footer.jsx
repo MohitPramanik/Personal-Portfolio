@@ -45,7 +45,7 @@ export default function Footer() {
             </div>
 
             <hr />
-            <p className="text-sm mt-2">© 2024 Your Name. All rights reserved.</p>
+            <p className="text-sm mt-2">© 2024 MohitPramanik. All rights reserved.</p>
         </footer>
     );
 }
