@@ -1,0 +1,109 @@
+/* -------------- hero-section ------------ */
+
+.fa-beat-fade {
+    animation-name: none;
+}
+
+#resume-btn:hover .fa-beat-fade, 
+#hire-btn:hover .fa-beat-fade {
+    animation-name: fa-beat-fade;
+}
+
+.bg-gradient {
+    background: linear-gradient(45deg, #e40eff, #00fff7);
+    animation: roundMove 2s linear infinite;
+}
+
+@keyframes roundMove {
+    from {
+        rotate: 0deg;
+    }
+    to {
+        rotate: 360deg;
+    }
+}
+
+/* ----------- Skills section ------------- */
+.skill-item span {
+    opacity: 0;
+    scale: 0;
+    transition: scale 0.2s linear, opacity 0.5s linear;
+}
+
+.skill-item:hover span {
+    opacity: 1;
+    scale: 1;
+}
+
+/* --------------- flip card ------------- */
+.flip-card-area {
+    perspective: 1000px;
+}
+
+.flip-card {
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover {
+    box-shadow: 0px 2px 14px 0px black;
+}
+
+.flip-card:hover .cover-img {
+    opacity: 0;
+    transition: all 0.3s linear;
+}
+
+.flip-the-card {
+    transform: rotateY(180deg);
+}
+
+.card-front-area {
+    backface-visibility: hidden;
+    z-index: 4;
+}
+
+.card-back-area {
+    transform: rotateY(180deg);
+}
+
+/* ----------- slider area ----------- */
+.swiper {
+    padding: 0 2rem !important;
+}
+
+@media (max-width: 450px) {
+    .swiper {
+        padding: 0 1rem !important;
+    }
+}
+
+.swiper-slide {
+    width: max-content !important;
+}
+
+.swiper-pagination-bullet-active {
+    background: #ffffff !important;
+}
+
+/* ------------- contact form ------------ */
+#contact-form-wrapper {
+    box-shadow: 0px 0px 29px -4px black;
+}
+
+/* --------------- Infinite slider ----------- */
+.logo-slide {
+    animation: 20s slide infinite linear;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+#logos:hover .logo-slide {
+    animation-play-state: paused;
+}
