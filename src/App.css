@@ -1,3 +1,17 @@
+/* Customize the scrollbar for the body */
+body::-webkit-scrollbar {
+    width: 0.4rem; /* Width of the scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgba(1, 124, 255, 0.533); /* Background of the scrollbar track */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background: rgb(28, 43, 207); /* Color of the scrollbar thumb */
+    border-radius: 50px; /* Rounded corners for the scrollbar thumb */
+  }  
+
 /* -------------- hero-section ------------ */
 
 .fa-beat-fade {

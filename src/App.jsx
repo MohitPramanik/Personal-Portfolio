@@ -14,8 +14,10 @@ export default function App() {
             onComplete: () => tl2.play()
         });
         
+        tl
+        .to("body", {overflow: "hidden"})
         // Preloader animation
-        tl.from("#preloader h1 span", {
+        .from("#preloader h1 span", {
             y: "-100vh",
             stagger: 0.4,
             duration: 1,
@@ -64,6 +66,7 @@ export default function App() {
               .fromTo("#my-image img", { scale: 0, opacity: 1}, {scale: 1, opacity: 1, duration: 0.4})
               .fromTo("#hero-section h1", { x: "-50%"}, {opacity: 1, x: "0"})
               .fromTo("#hero-section button", { x: "50%" }, { opacity: 1, x: 0 })
+              .to("body", {overflowY: "auto", opacity: 1})
         
               tl2.pause();
     })
