@@ -1,6 +1,6 @@
 import SplitBox from './SplitBox';
 import mohit from "../assets/HeroSection/mohit.jpeg";
-import resume from "../assets/HeroSection/resume.pdf";
+import resume from "../assets/HeroSection/MOHIT KUMAR PRAMANIK.pdf";
 
 export default function HeroSection() {
 

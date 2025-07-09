@@ -36,13 +36,20 @@ export default function Experience() {
     const experience = [
         {
             id: 1,
+            title: "Asssociate Product Configurator",
+            company: "Inadev India Pvt. Ltd.",
+            duration: "26 Dec 2024 - Present",
+            description: "Developed and configured responsive, client-focused web applications by applying logical conditions, business rules, and structured layouts. || Wrote custom JavaScript code to implement advanced functionalities beyond default platform capabilities, enhancing user experience and product performance. || Collaborated with cross-functional teams to translate complex requirements into scalable, maintainable web solutions with consistent UI and behavior.",
+        }, 
+        {
+            id: 2,
             title: "Frontend Developer Intern",
             company: "Code Nimbus Solutions",
             duration: "1 June 2024 - 30 Nov 2024",
             description: "Developed dynamic and responsive web applications using React.js and JavaScript. || Created reusable components to improve development efficiency and maintainability. || Ensured cross-browser compatibility and responsive design for a seamless user experience across devices. || Collaborated with back-end developers to integrate RESTful APIs into the front-end components. ||  Applied mobile-first development strategies and focused on optimizing performance. ",
         }, 
         {
-            id: 2,
+            id: 3,
             title: "Web Developer Intern",
             company: "Central Coalfields Limited",
             duration: "1 Sept 2023 – 30 Sept 2023 ",
